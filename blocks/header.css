@@ -29,12 +29,12 @@
     font-size: 20px;
     line-height: 30px;
     margin: 28px 0 0;
-    font-family: "Noto Serif", "Times New Roman", sans-serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
 }
   
  .header__span-accent {
     display: block;
-    font-family: "Noto Serif", "Times New Roman", sans-serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: italic;
     font-size: 60px;
     line-height: 72px;

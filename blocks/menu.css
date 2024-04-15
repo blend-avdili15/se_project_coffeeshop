@@ -18,9 +18,10 @@
     .menu__subtitle {
     text-align: center;
     margin: 0 0 100px;
-    font-family: "Noto Serif", "Times New Roman", sans-serif;  
+    font-family: "Noto Serif", "Times New Roman", serif;  
     font-size: 20px; 
     line-height: 30px;
+    max-width: 780px;
     }
     
     .menu__cards {
@@ -35,7 +36,6 @@
     
     .card {
     width: 540px;
-    list-style-type: none;
     }
     
     .card__title {
@@ -57,7 +57,7 @@
     
     .card__list-item {
         display: flex;
-        font-family: "Noto Serif"; 
+        font-family: "Noto Serif", "Times New Roman", serif;  
         font-size: 16px; 
         line-height: 20px;
     }

@@ -15,7 +15,6 @@
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    margin-bottom: 80px;
   }
   
   .reservation__form {
@@ -64,12 +63,14 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    color: #838383;
+    color: #d9e7ff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
   }
   
   .form__button {
     width: 100%;
-    padding: 0;
     margin-bottom: 32px;
     height: 60px;
     font-family: "inter", "Arial", sans-serif;
@@ -84,7 +85,7 @@
   }
   
   .form__button:hover {
-    animation: normal;
+    transition: normal;
     opacity: 0.7;
   }
   

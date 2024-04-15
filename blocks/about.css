@@ -17,7 +17,7 @@ position: relative;
 box-sizing: border-box;
 display: flex;
 flex-direction: row;
-gap: 350px;
+justify-content: space-between;
 }
 
 .about__title {
@@ -41,12 +41,11 @@ max-width: 660px;
 z-index: 1;
 position: relative;
 margin: 119px 80px 173px;
-gap: 20px;
 }
 
 .about__paragraph {
 margin: 0 0 32px;
-font-family: "Noto Serif";
+font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .about__paragraph:last-child {

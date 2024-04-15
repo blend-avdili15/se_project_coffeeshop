@@ -17,7 +17,7 @@
     height: 39px;
   }
 
-  footer__social-heading {
+  .footer__social-heading {
     margin: 0 0 20px;
     font-size: 16px;
     line-height: 20px;
@@ -31,7 +31,10 @@
 
   .footer__list-item {
     list-style-type: none;
-    margin: 0 0 16px;
+  }
+
+  .footer__list-item:last-child {
+    margin-bottom: 16px;
   }
 
   .footer__social-icon {
@@ -45,14 +48,10 @@
     text-decoration: none;
   }
 
-  .footer__social-link:last-child {
-    margin-bottom: 0;
-  }
-
   .footer__social-link:hover {
     color: #c1c1c1;
   }
 
-  footer__copyright {
+  .footer__copyright {
     margin: 108px 0 60px;
   }
