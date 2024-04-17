@@ -1,68 +1,72 @@
 @keyframes pulsate {
-    0% {opacity: 0;}
+  0% {
+    opacity: 0;
+  }
 
-    50% {opacity: 0.6;}
+  50% {
+    opacity: 0.6;
+  }
 
-    100% {
+  100% {
     opacity: 0;
     transform: scale(1.2);
-}
+  }
 }
 
 .about {
-background-color: #0a2850;
-color: #fff;
-overflow: hidden;
-position: relative;
-box-sizing: border-box;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .about__title {
-margin: 0;
-font-family: "inter", "Arial", sans-serif;
-font-size: 44px;
-line-height: 52px;
-font-weight: 500;
-z-index: 1;
-max-width: 251px;
-padding-left: 80px;
-padding-top: 100px;
-position: relative;
+  margin: 0;
+  font-family: "inter", "Arial", sans-serif;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  z-index: 1;
+  max-width: 251px;
+  padding-left: 80px;
+  padding-top: 100px;
+  position: relative;
 }
 
 .about__content {
-font-size: 20px;
-line-height: 30px;
-font-weight: 400;
-max-width: 660px;
-z-index: 1;
-position: relative;
-margin: 119px 80px 173px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  z-index: 1;
+  position: relative;
+  margin: 119px 80px 173px;
 }
 
 .about__paragraph {
-margin: 0 0 32px;
-font-family: "Noto Serif", "Times New Roman", serif;
+  margin: 0 0 32px;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .about__paragraph:last-child {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .about__circle {
-background-color: #2f80ed;
-width: 426px;
-height: 426px;
-border-radius: 50%;
-position: absolute;
-top: -152px;
-left: -129px;
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
 }
 
 .about__circle_animation_blurred {
-animation: pulsate 2s ease-in-out infinite ;
-animation-delay: 0s;
+  animation: pulsate 2s ease-in-out infinite;
+  animation-delay: 0s;
 }
