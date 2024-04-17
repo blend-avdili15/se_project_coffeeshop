@@ -27,7 +27,7 @@
     justify-content: center;
   }
   
-  input::placeholder {
+  .form__input::placeholder {
     padding-left: 8px;
   }
   
