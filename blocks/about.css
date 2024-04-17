@@ -67,6 +67,6 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 2s ease-in-out infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
   animation-delay: 0s;
 }
